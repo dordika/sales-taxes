@@ -1,20 +1,19 @@
 package com.interview.salestaxes.domain;
 
-import java.math.BigDecimal;
 
 public enum  TaxRate {
 
-    EXEMPT(BigDecimal.ZERO), //Rate for free catefory
-    BASIC_TAX (new BigDecimal(.10)), //Basic Tax Rate 10%
-    IMPORT_DUTY (new BigDecimal(0.05)); //Rate to add to basic taxes in case of imported
+    EXEMPT(0), //Rate for free catefory
+    BASIC_TAX (0.10), //Basic Tax Rate 10%
+    IMPORT_DUTY (0.05); //Rate to add to basic taxes in case of imported
 
-    private BigDecimal rate;
+    private double rate;
 
-    TaxRate(BigDecimal rate) {
+    TaxRate(double rate) {
         this.rate = rate;
     }
 
-    public BigDecimal getRate(){
+    public double getRate(){
         return this.rate;
     }
 }

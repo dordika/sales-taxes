@@ -18,6 +18,6 @@ import java.util.List;
 public class ReceiptDTO  {
 
     List<ItemReceiptDTO> itemReceipts = new ArrayList<>();
-    private BigDecimal sumSalesTaxe;
-    private BigDecimal tot;
+    private double sumSalesTaxe;
+    private double tot;
 }

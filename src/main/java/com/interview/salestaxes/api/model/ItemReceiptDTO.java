@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.math.BigDecimal;
 
 @Setter
 @Getter
@@ -14,7 +13,7 @@ public class ItemReceiptDTO {
 
     private Integer amount;
     private ProductDTO product;
-    private Double tax;
-    private BigDecimal priceTaxed;
+    private double tax;
+    private double priceTaxed;
 
 }
