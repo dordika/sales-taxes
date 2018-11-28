@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Entity;
+import java.math.BigDecimal;
 
 @Getter
 @Setter
@@ -13,5 +14,5 @@ public class Product  extends  BaseEntity {
 
     private String description;
     private Category category;
-    private Double price;
+    private BigDecimal price;
 }
