@@ -9,8 +9,15 @@
     <packaging>jar</packaging>
 
     <name>sales-taxes</name>
-    <description>this app permit to take an order as a input, apply sales taxes, and return a receipt as a output
-    </description>
+    <description>this app permit to take an order as a input, apply sales taxes, and return a receipt as a output</description>
+
+    <contributors>
+        <contributor>
+            <name>Dorjan Dika</name>
+            <organizationUrl>https://www.linkedin.com/in/dorjandika/</organizationUrl>
+            <email>dorjan.dika@gmail.com</email>
+        </contributor>
+    </contributors>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
