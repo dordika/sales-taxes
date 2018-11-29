@@ -21,7 +21,7 @@ public class ReceiptController {
         this.taxeService = taxeService;
     }
 
-    @ApiOperation(value = "Send shopping basket", notes = "List of order. For each order define: Amount, Product and a boolean to define if is imported.")
+    @ApiOperation(value = "Send shopping basket", notes = "List of order. For each order define: Amount, Product and a boolean to define if it is imported.")
     @PostMapping
     @ResponseStatus(HttpStatus.OK)
     public ReceiptDTO getReceipt(@RequestBody ShoppingBasketDTO basketDTO) {
