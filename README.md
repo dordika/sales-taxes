@@ -1,7 +1,7 @@
 # Sales Taxes
 [![CircleCI](https://circleci.com/gh/dordika/sales-taxes.svg?style=svg)](https://circleci.com/gh/dordika/sales-taxes)
 
-This service permit to send an shopping basket as a input, apply sales taxes, and return a receipt as  a output
+This service permit to send a shopping basket as a input, apply sales taxes, and return a receipt as  a output
 
 # Requirements:
  
