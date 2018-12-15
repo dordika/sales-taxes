@@ -1,6 +1,5 @@
 package com.interview.salestaxes.api.model;
 
-import com.interview.salestaxes.domain.BaseEntity;
 import com.interview.salestaxes.domain.TaxRate;
 import lombok.Builder;
 import lombok.Getter;
