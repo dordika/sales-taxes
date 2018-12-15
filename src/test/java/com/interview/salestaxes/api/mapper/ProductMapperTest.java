@@ -4,8 +4,8 @@ import com.interview.salestaxes.api.model.ProductDTO;
 import com.interview.salestaxes.domain.Category;
 import com.interview.salestaxes.domain.Product;
 import com.interview.salestaxes.domain.TaxRate;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 
@@ -21,7 +21,7 @@ public class ProductMapperTest {
     ProductMapper productMapper = ProductMapper.INSTANCE;
 
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         //given
         food = new Category();

@@ -6,8 +6,8 @@ import com.interview.salestaxes.api.model.ProductDTO;
 import com.interview.salestaxes.api.model.ShoppingBasketDTO;
 import com.interview.salestaxes.domain.TaxRate;
 import com.interview.salestaxes.services.TaxeService;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -37,7 +37,7 @@ public class ReceiptControllerTest extends AbstractRestControllerTest {
     CategoryDTO medical;
     CategoryDTO others;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
 

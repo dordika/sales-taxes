@@ -2,8 +2,9 @@ package com.interview.salestaxes.services;
 
 import com.interview.salestaxes.api.model.*;
 import com.interview.salestaxes.domain.TaxRate;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 
 import java.math.BigDecimal;
 import java.math.MathContext;
@@ -22,7 +23,7 @@ public class TaxeServiceImplTest {
     TaxeService taxeService;
 
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
 
         taxeService = new TaxeServiceImpl();
